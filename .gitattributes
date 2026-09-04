@@ -1,0 +1,29 @@
+﻿# Source text
+*.c text eol=lf
+*.h text eol=lf
+*.s text eol=lf
+*.ld text eol=lf
+*.ioc text
+*.project text
+*.cproject text
+*.mxproject text
+*.py text
+*.m text
+*.md text
+*.txt text
+
+# MATLAB / Simulink binary files
+*.slx binary
+*.slxp binary
+*.sldd binary
+*.mlx binary
+*.mlapp binary
+*.mat binary
+*.fig binary
+
+# Measurement / documents
+*.csv text
+*.tsv text
+*.xlsx binary
+*.xls binary
+*.pdf binary

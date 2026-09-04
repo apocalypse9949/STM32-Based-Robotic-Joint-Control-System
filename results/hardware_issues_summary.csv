@@ -1,0 +1,6 @@
+Issue,Observed effect,Mitigation or analysis
+Limited access to internal conductors,Could not uniformly acquire encoders and drive all motors,Bypassed original controllers and connected accessible motors/encoders to external drivers
+Motor 1 encoder damage,Permanent malfunction after excessive current,Highlighted need for protected encoder interfaces
+Shoulder gravity load,Motor 2 requires gravity-aware control,Collected datasets for identification-based angular estimation/control
+Motor 3 encoder disturbances,Wrong tick readings during PWM actuation,"Tested board separation, capacitors, RC filtering, optocoupler and Schmitt-trigger approach"
+Motor 2 encoder channel failure,Angular position could not be measured reliably,Considered model-based estimation and IMU mounting

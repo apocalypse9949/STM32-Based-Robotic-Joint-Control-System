@@ -1,0 +1,5 @@
+Experiment,Input,Output,Purpose
+DC35 dataset,Constant 35% duty cycle,Angular position and speed,Build baseline motor-2 iddata object
+Random duty-cycle dataset,Random duty-cycle sequence,Angular position and speed,Excite wider dynamics for ARX/ARMAX identification
+Grey-box attempt,"Duty cycle, intended motor command",Motor/joint states,Evaluate physics-informed parameter estimation
+Simulink PI loop,Reference angle step,Identified model response,Preliminary controller tuning

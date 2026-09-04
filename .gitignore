@@ -1,0 +1,93 @@
+﻿# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE local metadata
+.vscode/
+.idea/
+.vs/
+.settings/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+venv/
+.venv/
+env/
+ENV/
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+
+# STM32CubeIDE / Eclipse build outputs
+Debug/
+Release/
+build/
+bin/
+obj/
+
+# Embedded compiler/build outputs
+*.o
+*.obj
+*.d
+*.su
+*.elf
+*.hex
+*.bin
+*.map
+*.list
+*.lst
+*.dep
+*.axf
+*.out
+
+# Logs / temporary files
+*.log
+*.tmp
+*.bak
+
+# MATLAB autosaves / editor backups
+*.asv
+*.autosave
+*.m~
+
+# MATLAB / Simulink generated artifacts
+slprj/
+**/slprj/
+html/
+**/html/
+cache/
+**/cache/
+varcache/
+**/varcache/
+codegen/
+**/codegen/
+*.slxc
+*_ert_rtw/
+*_grt_rtw/
+*_sharedutils/
+*_sldrt_win64/
+
+# Simulink internal generated folders
+_cgxe/
+_cprj/
+_jitprj/
+_sfprj/
+**/_cgxe/
+**/_cprj/
+**/_jitprj/
+**/_sfprj/
+
+# Compiled/generated binaries
+*.mex*
+*.dll
+*.exe
+*.pdb
+*.ilk
+*.lib
+*.exp
